@@ -24,89 +24,89 @@ const methods = {
         <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2011 - present"
+          date="August 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<CloseIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">NIT CONCLAVE</h3>
+          <h4 className="vertical-timeline-element-subtitle">Rourkela</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+          NIT Conclave is  a three day extravaganza which includes competitions such as Hackathon, Coding Contests, Startup Hunt, Quizzes, Institute Presentation,etc for the participating NITs.
+
+NIT Jamshedpur secured 5th position last year and aim to excel more in the  years to come.
+
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="March 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<CloseIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">Smart India Hackathon : Software</h3>
+          <h4 className="vertical-timeline-element-subtitle">Bhubaneswar</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+          SIH is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives and is the country’s largest open innovation model wherein more than 2 lakh ideas compete against each other.
+
+Team BYTEBUCKET-1111 from NIT Jamshedpur, stood “National Champions”, where they developed a solution for the Road and Highway Ministry Of India. The winners were awarded with a huge cash prize and a golden opportunity to work with the Government of India.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="November 2018"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<CloseIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+          <h3 className="vertical-timeline-element-title">Axis Bank Hackathon</h3>
+          <h4 className="vertical-timeline-element-subtitle"> </h4>
           <p>
-            User Experience, Visual Design
+          A hackathon is conducted by Axis Bank every year to help people provide ideas on improvement of the banking system. 
+
+Team ILLUMINATI from NIT Jamshedpur secured 5th rank nationwide where they designed a signature forgery detection system and OCR- alternative model for image to text conversion.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="May 2017"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<CloseIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">ACM ICPC </h3>
+          <h4 className="vertical-timeline-element-subtitle"> </h4>
           <p>
-            User Experience, Visual Design
+          TEAM -  AVILU
+          Secured – 48th rank in IIT-KGP REGIONALS and 58th rank in KOLKATA-KANPUR Zone.
+
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2017"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<CloseIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ACM ICPC</h3>
+          <h4 className="vertical-timeline-element-subtitle"> </h4>
+          <p>
+          TEAM - 3 TORTOISES
+Secured 18th rank in GWALIOR REGIONALS and 29th rank in AMIRITAPURI REGIONALS.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          date="2015"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<CloseIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+          <h3 className="vertical-timeline-element-title">ACM ICPC</h3>
+          <h4 className="vertical-timeline-element-subtitle">Kolkata</h4>
           <p>
-            Strategy, Social Media
+          Students of NIT Jamshedpur(Batch 2k13) secured 7th rank in ACM-ICPC REGIONALS, KOLKATA region.The seniors were Shubham Vishwakarma, Shubham Singh and Shubhendu Shisir.
+Kolkata Region Rank-19
+Amiritapuri Region Rank-49
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          style={{color:"red"}}
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<CloseIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<CloseIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-          <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-          <p>
-            Creative Direction, Visual Design
-          </p>
-        </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
           icon={<CloseIcon />}
