@@ -1,0 +1,100 @@
+.sidebar{
+    height: 100%;
+    width: 20rem;
+    position: fixed;
+    background: #4A4A4C ;
+     padding-top: 60px;
+     opacity: 0.95;
+    z-index: 100;
+    top:60;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.expand{
+    transform: translateX(0%);
+}
+
+.contract{
+    transform: translateX(-100%);
+}
+
+.menu-item{
+
+    width:100%;
+    height:5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    
+}
+
+
+
+.menu-item .icon-div{
+    width:25%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu-item .icon-div .my-icon{
+    width:50%;
+    height: auto;
+    color:#038A86;
+}
+
+.menu-item .text-div{
+    width:75%;
+    height:70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.menu-item .text-div .text{
+    width:100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-item .text-div .text span{
+    color:#fff;
+    font-size: 1.24rem;
+}
+
+
+@media only screen and (min-width:660px){
+
+    .menu-item:hover{
+        cursor: pointer;
+        background: white;
+    }
+
+    .menu-item:hover .icon-div .my-icon{
+        color:  #4a4a4c;
+    }
+    .menu-item:hover .text-div .text span{
+        color: #4a4a4c;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .sidebar{
+        width: 100vw;
+    }
+}

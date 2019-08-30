@@ -1,0 +1,77 @@
+*{
+    border:none;
+}
+.fa-github-square:hover,
+.fa-github-square:hover ::after,
+.fa-github-square:hover ::before{
+color:#333;
+}
+
+.fa-linkedin-square:hover,
+.fa-linkedin-square:hover ::after,
+.fa-linkedin-square:hover ::before {
+    color: #0e76a8;
+}
+
+.fa-facebook-square:hover,
+.fa-facebook-square:hover ::after,
+.fa-facebook-square:hover ::before {
+    color: #3b5998;
+}
+
+.profile{
+box-shadow: 4px 8px 10px #123!important;
+}
+
+.profile:hover{
+    /* transform:scale(1.1,1.1); */
+box-shadow:  1px 2px 5px #123!important;
+/* background: wheat; */
+}
+.jumbotrond{
+text-align: center;
+margin: 2% auto 2% auto;
+}
+
+    .col-md-4 {
+    
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 ;
+    flex: 0 0 ;
+    max-width: 90%;
+    text-align: center;
+    /* margin:'5px auto'; */
+    margin-left:5%;
+    position: relative;
+  width: 90%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+.row {
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px; */
+  /* margin-left: 5%!important; */
+  /* width:92%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width:660px){
+
+    .row{
+        margin: 2rem auto;
+    }
+
+    .Team{
+        margin-left:5rem !important;
+    }
+}

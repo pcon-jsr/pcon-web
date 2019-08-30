@@ -1,0 +1,13 @@
+.hov:hover{
+    background-color: beige;
+   
+}
+.cell{
+  font-family:'Bevan';
+  font-size:20px !important;
+}
+/* @media only screen and (max-width: 500px){
+   #ui{
+    
+   } 
+} */

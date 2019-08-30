@@ -1,0 +1,383 @@
+.footer{
+    height: 40vh;
+    width: 100%;
+    background: black;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:660px){
+    .footer{
+        flex-direction: column;
+        height: 100vh;
+    }
+}
+
+.footer .pcon{
+    width: 33%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer .pcon .title{
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .pcon .title span{
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.footer .pcon .links{
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .pcon .links span{
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .pcon .copyright-text {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .pcon .copyright-text  span{
+    padding-left: 1.5rem;
+}
+
+@media only screen and (max-width:660px){
+    .footer .pcon{
+        width: 100%;
+        height: 33%; 
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .pcon .links{
+        justify-content: center;
+    }
+
+    .footer .pcon .links span{
+        padding: 0 0.5rem;
+    }
+
+    .footer .pcon .title span{
+         
+        font-size: 1.4rem;
+    }
+
+    .footer .pcon .copyright-text{
+        justify-content: center;
+    }
+
+    .footer .pcon .copyright-text span{
+        padding: 0 0.5rem;
+    }
+}
+
+.footer .contact{
+    width: 33%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer .contact .name{
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.footer .contact .name .icon{
+    width: 20%;
+    height: 100%;
+  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer .contact .name .text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.footer .contact .name .text span{
+    font-size: 1.1rem;
+    padding: 0.1rem 0;
+}
+
+.footer .contact .name .text span:nth-child(2){
+    font-weight: 660;
+}
+
+.footer .contact .phone {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.footer .contact .phone .icon{
+    width: 20%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer .contact .phone .text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.footer .contact .phone .text span{
+    font-size: 1.1rem;
+}
+
+.footer .contact .email{
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.footer .contact .email .icon{
+    width: 20%;
+    height: 100%;
+     
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.footer .contact .email .text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.footer .contact .email .text span{
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width:660px){
+    .footer .contact{
+        width: 100%;
+        height: 33%; 
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact .name{
+        height: 40%;
+    }
+    
+    .footer .contact .phone, .footer .contact .email{
+        height: 25%;
+    }
+
+
+    .footer .contact .name .text span{
+        font-size: 0.9rem;
+         
+    }
+    .footer .contact .name .text span:nth-child(2){
+        font-weight: 500;
+         
+    }
+
+    .footer .contact .name{
+        width:60%;
+    }
+
+    
+
+    .footer .contact .phone {
+        width: 60%;
+    }
+     
+
+    .footer .contact .phone .text span{
+        font-size: 0.9rem;
+        text-align: center;
+        
+    
+    }
+
+    .footer .contact .email {
+        width: 60%;
+    }
+
+    .footer .contact .email .text span{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+.footer-icon{
+    width: 27%;
+    height: auto;
+}
+
+@media only screen and (max-width:660px){
+    .footer-icon{
+        width: 20px;
+        height:20px;
+    }
+} 
+
+.footer .social-media{
+    width: 27%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:660px){
+    .footer .social-media{
+        width: 100%;
+        height: 33%;  
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+     margin: 0;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     
+
+  }
+  
+  .fa:hover {
+      
+      cursor: pointer;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github{
+    background: white;
+    color:black;
+  }
+
+  .fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color:white;
+}
+
+.footer a:hover{
+    opacity: 0.9;
+    color:white;
+    transform: scale(1.08);
+}
+
+.footer a:nth-child(3):hover{
+    color:  black;
+}
+
+@media only screen and (max-width:660px){
+
+    .fa{
+        margin: 0 0.5rem;
+    }
+}

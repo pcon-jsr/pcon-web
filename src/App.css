@@ -1,0 +1,51 @@
+/*.App {
+   
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: flex-start;
+   
+}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body{
+  font-family: 'Roboto Slab', serif;
+   overflow-x:hidden;
+}
+
+body td{
+
+  font-size: 18px;
+}
+ 
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ 
+
+.container{
+  width: 100%;
+  height: auto;
+  margin-top:  0px;
+   
+  
+}
+
+.container .content{
+  width: 100%;
+   height:auto;
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+   
+}
