@@ -14,7 +14,7 @@ const HomePageRecentActivities = () => (
         </div>
         <div className='section inverted'>
             <div className='image-div'>
-            <img src={ActivitiesImage1} alt={'inductions'}/>
+            <img src={InductionsInterviewImage}  alt={'inductions'}/>
             </div>
             <div className='text'>
                 <h4>Inductions : 2017 and 2018 batch</h4>
@@ -26,7 +26,7 @@ const HomePageRecentActivities = () => (
         </div>
         <div className='section '>
             <div className='image-div'>
-                <img src={InductionsInterviewImage} alt={'hackathon'}/>
+                <img src={ActivitiesImage1}  alt={'hackathon'}/>
             </div>
             <div className='text'>
                 <h4>Hackathon : National Initiative for Design Innovation</h4>
