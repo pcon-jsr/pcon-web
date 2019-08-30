@@ -1,7 +1,9 @@
 import React from 'react';
 
 import ActivitiesImage1 from '../../assets/hack1.jpg';
- 
+
+import InductionsInterviewImage from '../../assets/induction-interview.png';
+
 import './homePageRecentActivities.styles.css';
 
 const HomePageRecentActivities = () => (
@@ -24,7 +26,7 @@ const HomePageRecentActivities = () => (
         </div>
         <div className='section '>
             <div className='image-div'>
-                <img src={ActivitiesImage1} alt={'hackathon'}/>
+                <img src={InductionsInterviewImage} alt={'hackathon'}/>
             </div>
             <div className='text'>
                 <h4>Hackathon : National Initiative for Design Innovation</h4>

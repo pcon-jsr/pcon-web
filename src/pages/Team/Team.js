@@ -220,7 +220,7 @@ export default class Team extends Component {
                         git=""
                         linkedin=""
                         fb=""
-                        imgSrc=""
+                        imgSrc="https://drive.google.com/file/d/161pZlrte7IwLrasJWtgNQMC4q0FSNbz2/view?usp=drivesdk"
                     />
                      <Profile
                         name="Niraj Oswal"
@@ -228,7 +228,7 @@ export default class Team extends Component {
                         git=""
                         linkedin=""
                         fb=""
-                        imgSrc=""
+                        imgSrc="https://drive.google.com/file/d/1-LCkaiNbZvQyLQvGfi4FYkHRVgHug9qr/view?usp=drivesdk"
                     />
                      <Profile
                         name="Piyush Rai"
@@ -236,7 +236,7 @@ export default class Team extends Component {
                         git=""
                         linkedin=""
                         fb=""
-                        imgSrc=""
+                        imgSrc="https://drive.google.com/file/d/1-fmO3Y4npHafut8_HXIHGwcQZlf2-jCv/view?usp=drivesdk"
                     />
                      <Profile
                         name="Vivek Sharma"
@@ -244,7 +244,7 @@ export default class Team extends Component {
                         git=""
                         linkedin=""
                         fb=""
-                        imgSrc=""
+                        imgSrc="https://drive.google.com/file/d/1-ljVpDsXxjTT2z9VWaXUxh9JtwWZ_6PJ/view?usp=drivesdk"
                     />
                     <Profile
                         name="Abhinav Kinshuk"
