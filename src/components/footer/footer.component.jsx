@@ -20,7 +20,7 @@ class Footer extends React.Component{
                     </div>
                     <div className='links'>
                         <Link to='/'><span style={{color:'white'}}> Home </span></Link>
-                        <span> <a target='_blank' href='http://www.nitjsr.ac.in/' style={{color:'white'}}>NIT JSR </a></span>
+                        <span> <a rel='noopener noreferrer' target='_blank' href='http://www.nitjsr.ac.in/' style={{color:'white'}}>NIT JSR </a></span>
                     </div>
                     <div className='copyright-text'>
                         <span>PCON-JSR © 2019</span>
@@ -62,10 +62,10 @@ class Footer extends React.Component{
                     </div>
                 </div>
                 <div className='social-media'>
-                     <a target='_blank' href='https://www.facebook.com/pconjsr/' className="fa fa-facebook"> </a>
-                     <a target='_blank' href='https://www.linkedin.com/company/pconjsr/'  className="fa fa-linkedin"></a>
-                     <a target='_blank' href='https://github.com/pcon-jsr'  className="fa fa-github"  ></a>
-                     <a target='_blank' href='https://www.instagram.com/pconjsr'  className="fa fa-instagram"></a>
+                     <a rel='noopener noreferrer' target='_blank' href='https://www.facebook.com/pconjsr/' className="fa fa-facebook"> </a>
+                     <a rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/company/pconjsr/'  className="fa fa-linkedin"> </a>
+                     <a rel='noopener noreferrer' target='_blank' href='https://github.com/pcon-jsr'  className="fa fa-github"  > </a>
+                     <a rel='noopener noreferrer' target='_blank' href='https://www.instagram.com/pconjsr'  className="fa fa-instagram"> </a>
                 </div>
             </div>
         )

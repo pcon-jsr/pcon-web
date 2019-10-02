@@ -65,6 +65,8 @@
     align-items: center;
 }
 
+ 
+
 .footer .pcon .links span{
     padding-left: 1.5rem;
     font-size: 1.2rem;
@@ -376,13 +378,13 @@
     color:white;
 }
 
-.footer a:hover{
+.footer .social-media a:hover{
     opacity: 0.9;
     color:white;
     transform: scale(1.08);
 }
 
-.footer a:nth-child(3):hover{
+.footer .social-media a:nth-child(3):hover{
     color:  black;
 }
 

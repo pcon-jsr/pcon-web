@@ -9,12 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
-import {Animated} from "react-animated-css";
 import BuyHatke from "./BuyHatke.js";
 import Samsung from "./Samsung.js";
 
@@ -120,7 +115,7 @@ export default function Experience(props) {
 
               </DialogTitle>
               <DialogContent>
-        {props.content=='1'?<BuyHatke/>:<Samsung/>}
+        {props.content ==='1'?<BuyHatke/>:<Samsung/>}
          {/* <BuyHatke/> */}
          {/* <Samsung/> */}
          </DialogContent>

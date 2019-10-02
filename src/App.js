@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route,Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import Navbar from './components/navbar/navbar.component';
@@ -11,7 +11,7 @@ import Footer from './components/footer/footer.component';
 import Timeline from './pages/timeline/Timeline';
 import Leader from './pages/leaderboard/leader';
 import Gallery from './pages/gallery/gallery.page'; 
-
+import SubmitInterviewExp from './pages/submit-interview-exp/submit-interview-exp.page.jsx';
 
 class App extends React.Component{
 
@@ -56,7 +56,7 @@ class App extends React.Component{
                       <Route exact path='/interview' component={Interview} />
                       <Route exact path='/achievements' component={Timeline} /> 
                       <Route exact path='/leaderboard' component={Leader} /> 
-                      <Route exact path='/gallery' component={Gallery} /> 
+                      <Route exact path='/submit-interview-experience' component={SubmitInterviewExp}/>
                        
                   </Switch>
                 

@@ -12,6 +12,8 @@ import CardContent from '@material-ui/core/CardContent';
 import Hidden from '@material-ui/core/Hidden';
 import {Animated} from "react-animated-css";
 
+
+
 import lifecycle from 'react-pure-lifecycle';
 
 const useStyles = makeStyles({
@@ -44,6 +46,27 @@ const useStyles = makeStyles({
       cardMedia: {
         width: 160,
       },
+      addExperienceBtn:{
+        width: '4rem',
+        height:'4rem',
+        borderRadius:'50%',
+        backgroundColor:'#038A86',
+        color:'white',
+        fontSize:'3rem',
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        position:'fixed',
+        top:'120px',
+        right:'40px',
+        textDecorationColor:'white',
+        cursor:'pointer',
+        "&:hover":{
+    
+          boxShadow: '5px 5px 35px -12px rgba(0,0,0,0.69)',
+        }
+      }
 
     });
 
@@ -78,7 +101,7 @@ const useStyles = makeStyles({
     
     
 
- function Interview() {
+ function Interview(props) {
   
 
   const classes = useStyles();
@@ -93,7 +116,11 @@ const useStyles = makeStyles({
         <h1> Interview Experiences</h1>
 
       </div>
-
+      <div  onClick={() => {
+        props.history.push('/submit-interview-experience')
+      }} className={classes.addExperienceBtn}>
+          +
+      </div>
  {/* Sub featured posts */}
  <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
  <div style={{margin:'4%'}}>
