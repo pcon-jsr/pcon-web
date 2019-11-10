@@ -7,7 +7,9 @@
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-     z-index: 120;
+     z-index: 100;
+     transition: 0.3s ease-in-out;
+     
 }
 
 .navbar .toggle-icon-div{

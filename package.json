@@ -21,6 +21,8 @@
     "react-swipeable-views": "^0.13.3",
     "react-swipeable-views-utils": "^0.13.3",
     "react-tilt": "^0.1.4",
+    "react-typing-animation": "^1.6.2",
+    "react-typing-effect": "^2.0.2",
     "react-vertical-timeline-component": "^2.4.0",
     "semantic-ui-react": "^0.88.0"
   },

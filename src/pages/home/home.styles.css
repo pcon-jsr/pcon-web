@@ -1,7 +1,7 @@
 .home{
     width: 100%;
     height: auto;
-     
+    z-index: -10;
     background: #fff;
 }
 

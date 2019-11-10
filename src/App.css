@@ -12,6 +12,7 @@
 body{
   font-family: 'Roboto Slab', serif;
    overflow-x:hidden;
+    
 }
 
 body td{
@@ -29,7 +30,32 @@ a{
 	box-sizing: border-box;
 }
 
- 
+.message-box-button{
+  position: fixed;
+  z-index: 80;
+  bottom: 20px;
+  right: 20px;
+  background: #038A86;
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.message-box-button.dark{
+  background: #4A4A4C;
+}
+
+.message-box-button:hover{
+  cursor: pointer;
+  background: #4A4A4C;
+  
+}
 
 .container{
   width: 100%;
