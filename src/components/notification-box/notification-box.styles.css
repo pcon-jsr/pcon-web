@@ -1,0 +1,17 @@
+.notification-box{
+    width:20vw;
+    height:80vh;
+    background: #4A4A4C;
+    position: fixed;
+    top:60px;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+@media only screen  and (max-width:768px){
+
+    .notification-box{
+        width:80vw;
+    }
+}

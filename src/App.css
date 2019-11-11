@@ -30,6 +30,20 @@ a{
 	box-sizing: border-box;
 }
 
+ 
+
+.hidden-notification-icon{
+  z-index: 40;
+  position: fixed;
+  top:15px;
+  right: 20px;
+  width:40px;
+  height: 40px;
+  color: #4A4A4C;
+  cursor: pointer;
+  
+}
+
 .message-box-button{
   position: fixed;
   z-index: 80;
@@ -61,7 +75,7 @@ a{
   width: 100%;
   height: auto;
   margin-top:  0px;
-   
+  background: #c5bcbc85;
   
 }
 
@@ -73,5 +87,5 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-   
+  
 }

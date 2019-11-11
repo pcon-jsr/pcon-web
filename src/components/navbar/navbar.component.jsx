@@ -43,7 +43,7 @@ class Navbar extends React.Component{
         return (
             
             <div className='navbar' style={{
-                opacity: (window.innerWidth >=768) ? (this.state.yPosition > 0 ? 1 : 0 ) : 1
+                visibility: (window.innerWidth >=768 && window.location.pathname === '/') ? (this.state.yPosition > 0  ? 'visible' : 'hidden' ) : 'visible'
             }}>
                 <div className='toggle-icon-div' onClick={this.props.toggleSidebar}>
                     <MenuIcon className='menu-icon'/>
@@ -51,11 +51,11 @@ class Navbar extends React.Component{
                 <Link to='/' style={{textDecoration:'none',color:'white'}} onClick={this.props.closeSidebar} className='pcon-home-btn'>
                     <span>PCON </span>
                 </Link>
-                <div className='notification-btn'>
+                <div className='notification-btn' onClick={this.props.toggleNotificationBox}>
                     <div className='notification-icon'>
                         <BellIcon className='bell-icon'/>
                     </div>
-                    <div className='text'>
+                    <div className='text' >
                         <span>NOTIFICATIONS</span>
                     </div>
                     

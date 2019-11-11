@@ -25,7 +25,7 @@ class Sidebar extends React.Component{
                     <div className='text-div'>
                         
                         <div className='text'>
-                            <Link><span>Activities</span></Link>
+                            <Link to='/activities'><span>Activities</span></Link>
                         </div>
                     </div>
                 </Link>

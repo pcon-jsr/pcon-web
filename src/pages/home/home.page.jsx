@@ -5,8 +5,11 @@ import HomePageHeader from '../../components/homePageHeader/homePageHeader.compo
 import HomePageAbout from '../../components/homePageAbout/homePageAbout.component';
 import HomePageRecentActivities from '../../components/homePageRecentActivities/homePageRecentActivities.component';
 import OtherPagesSection from '../../components/otherPagesSection/otherPagesSection.component';
+import RectangularContainer from '../../components/rectangular-container/rectangular-container.component';
 
-class HomePage extends React.Component{
+
+
+class HomePage extends React.Component {
 
     changeRoute = (text) => {
 
@@ -15,18 +18,19 @@ class HomePage extends React.Component{
 
     componentDidMount() {
         window.scrollTo(0, 0)
-      }
+    }
 
     render() {
         console.log('Home:', this.props)
         return (
             <div className='home'>
-                <HomePageHeader/>
-                 <HomePageAbout />
-                 <HomePageRecentActivities/>
-                 <OtherPagesSection changeRoute={this.changeRoute} />
-                 
-                
+                <HomePageHeader />
+                <RectangularContainer>
+                    <HomePageAbout />
+                    <HomePageRecentActivities />
+                    <OtherPagesSection changeRoute={this.changeRoute} />
+                </RectangularContainer>
+
             </div>
         )
     }
