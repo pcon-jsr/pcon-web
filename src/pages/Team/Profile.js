@@ -63,7 +63,7 @@ export default class Profile extends Component {
                 </li>
 
                 <li style={{ display: "inline-block" , margin:"0 4px"}}>
-                  {" "}
+                   
                   <a href={this.props.linkedin}>
                     <i
                       style={{ fontSize: "35px", margin: "3%" , background:'#eee', border:'1px solid #038a86' }}
@@ -73,7 +73,7 @@ export default class Profile extends Component {
                   </a>
                 </li>
                 <li style={{ display: "inline-block", margin:"0 4px" }}>
-                  {" "}
+                   
                   <a href={this.props.fb}>
                     <i
                       style={{ fontSize: "35px", margin: "3%", background:'#eee', border:'1px solid #038a86' }}
