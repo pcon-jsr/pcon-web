@@ -16,23 +16,18 @@ export default class Team extends Component {
       <div
         className="Team"
         style={{
-          
-          padding: "0",
-          
-           
+          padding: "0"
         }}
       >
-        <div style={{ margin: "90px  0 0 0" }}>
-          <h1>Team </h1>
-        </div>
         <RectangularContainer>
+          <div style={{ margin: "90px  0 0 0" }}>
+            <h1 style={{color:'white'}}>Team </h1>
+          </div>
           <div
             className="jumbotrond"
             style={{ backgroundColor: "transparent" }}
           >
-            <h2
-              style={{ marginTop: "1%",  textAlign: "center" }}
-            >
+            <h2  style={{ marginTop: "1%", textAlign: "center", color:'white' }}>
               <strong>Professor Incharge:</strong>
             </h2>
             <div
@@ -95,9 +90,10 @@ export default class Team extends Component {
               <div className="col-md-4"></div>
             </div>
           </div>
-          <hr />
+           <hr/>
+           <hr/>
           {/* <h3 style={{ marginTop: '3%', marginLeft: '3%', }}><strong>Team Members:</strong></h3> */}
-          <h3 style={{ textAlign: "center", margin: "2% auto" }}>
+          <h3 style={{ textAlign: "center", margin: "2rem  auto 0.5rem auto",  color:'white'  }}>
             <strong>Final Year</strong>
           </h3>
 
@@ -249,7 +245,7 @@ export default class Team extends Component {
           <hr />
           <br />
           <div className="container">
-            <h3 style={{ textAlign: "center", marginLeft: "%" }}>
+            <h3 style={{ textAlign: "center", marginLeft: "%",  color:'white'  }}>
               <strong>Pre-Final Year</strong>
             </h3>
 

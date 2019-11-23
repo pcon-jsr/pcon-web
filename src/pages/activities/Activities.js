@@ -8,7 +8,10 @@ import Panel from "./Panel";
 import RectangularContainer from '../../components/rectangular-container/rectangular-container.component';
 
 const useStyles = makeStyles({
-  
+  tabsContainer:{
+    width:600,
+    maxWidth:"90%",
+  }
 });
 
 export default function Activities() {
@@ -32,9 +35,10 @@ export default function Activities() {
         width: "100%"
       }}
     >
-      <h1>ACTIVITIES</h1>
+      
       <RectangularContainer>
-        <Paper className={classes.root}>
+        <h1 style={{color:'white', marginBottom: '3rem'}}>ACTIVITIES</h1>
+        <Paper className={classes.tabsContainer}>
           <Tabs
             value={value}
             onChange={handleChange}
@@ -44,17 +48,17 @@ export default function Activities() {
           >
             <Tab
               label="Past Activities"
-              style={{ fontSize: "15px" }}
+              style={{ fontSize: "15px", width:"33.3%", }}
               index={0}
             />
             <Tab
               label="Ongoing Activities"
-              style={{ fontSize: "15px" }}
+              style={{ fontSize: "15px", width:"33.3%", }}
               index={1}
             />
             <Tab
               label="Upcoming Activities"
-              style={{ fontSize: "15px" }}
+              style={{ fontSize: "15px", width:"33.3%", }}
               index={2}
             />
           </Tabs>

@@ -10,7 +10,7 @@ export default class Profile extends Component {
             class="ui card profile"
             style={{
               textAlign: "center",
-              marginBottom: "5%"
+               margin:'2rem 0'
               // boxShadow: '2px 5px 10px #333',
             }}
           >

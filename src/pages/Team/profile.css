@@ -28,10 +28,12 @@
 
 .container{
     background: transparent;
+    
 }
 
 .profile {
   box-shadow: 4px 8px 10px #123 !important;
+   
 }
 
 .profile:hover {

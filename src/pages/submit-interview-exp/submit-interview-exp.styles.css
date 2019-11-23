@@ -1,8 +1,8 @@
 .submit-interview-exp{
     width:100vw;
-    margin-bottom: 55px;
+    
      
-    margin-top: 90px;
+    margin-top: 60px;
 
     display: flex;
     flex-direction: column;
@@ -10,12 +10,13 @@
     align-items: center;
 }
 
-.submit-interview-exp .title{
+ .title{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color:#fff;
 }
 
 .submit-interview-exp .input-editor{

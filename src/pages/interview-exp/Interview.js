@@ -98,10 +98,8 @@ function Interview(props) {
   const classes = useStyles();
 
   return (
-    <div style={{ marginTop: "90px", width:'100%' , display:'flex', flexDirection:'column', alignItems:'center', }}>
-      <div style={{ textAlign: "center", marginBottom:'10px' }}>
-        <h1> Interview Experiences</h1>
-      </div>
+    <div style={{ marginTop: "60px", width:'100%' , display:'flex', flexDirection:'column', alignItems:'center', }}>
+      
       <div
         onClick={() => {
           props.history.push("/submit-interview-experience");
@@ -111,6 +109,9 @@ function Interview(props) {
         +
       </div>
       <RectangularContainer>
+      <div style={{ textAlign: "center", marginBottom:'10px' }}>
+        <h1 style={{color:'white'}}> Interview Experiences</h1>
+      </div>
         {/* Sub featured posts */}
         <Animated
           animationIn="bounceInLeft"

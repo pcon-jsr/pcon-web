@@ -18,20 +18,21 @@ class Gallery extends React.Component {
 
 
     render() {
-        const cardGridStyles={
-             
-             maxHeight:'100%',
-             display:'flex',
-             justifyContent:'center',
+        const cardGridStyles = {
+
+            maxHeight: '100%',
+            display: 'flex',
+            justifyContent: 'center',
         };
 
         return (
-            <div style={{ marginTop: 90, width:'100%', marginBottom: 70, display:'flex', flexDirection:'column', alignItems:'center', }}>
-                <div style={{ width: '100%', height: '6rem', textAlign: 'center' }}>
-                    <h1 style={{ fontSize: '2.5rem' }}>Gallery</h1>
-                </div>
+            <div style={{ marginTop: 60, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', }}>
+
                 <RectangularContainer>
-                    <Grid container spacing={4} style={{ marginBottom: 10, maxWidth:'100%', }} alignItems="center" justify='center'>
+                    <div style={{ width: '100%', height: '6rem', textAlign: 'center' }}>
+                        <h1 style={{ fontSize: '2.5rem', color:'white' }}>Gallery</h1>
+                    </div>
+                    <Grid container spacing={4} style={{ marginBottom: 10, maxWidth: '100%', }} alignItems="center" justify='center'>
                         <Grid style={cardGridStyles} item xs={12} md={4} >
                             <SimpleCard />
                         </Grid>

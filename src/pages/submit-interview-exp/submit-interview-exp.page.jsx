@@ -57,10 +57,11 @@ export class SubmitInterviewExp extends Component {
     render() {
         return (
             <div className='submit-interview-exp'>
-                <div className='title'>
-                    <h1>Submit Your Interview Experience</h1>
-                </div>
+
                 <RectangularContainer>
+                    <div className='title'>
+                        <h1>Submit Your Interview Experience</h1>
+                    </div>
                     <div className='personal-info'>
                         <TextField
                             id="filled-name"
@@ -116,7 +117,7 @@ export class SubmitInterviewExp extends Component {
                             onChange={this.handleChangeText} />
                     </div>
                     <div className='btn-div'>
-                        <div  className='submit-btn'>
+                        <div className='submit-btn'>
                             Submit
                         </div>
                     </div>

@@ -19,13 +19,25 @@ const methods = {
 function Timeline() {
   // console.log(disp);
   return (
-    <div style={{  height:'auto', width: "100%", display:'flex', flexDirection:'column', alignItems:'center', }}>
-      <div
-        style={{ marginTop: "90px", marginBottom: "50px", textAlign: "center" }}
-      >
-        <h1>Achievements</h1>
-      </div>
+    <div
+      style={{
+        height: "auto",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center"
+      }}
+    >
       <RectangularContainer>
+        <div
+          style={{
+            marginTop: "90px",
+            marginBottom: "50px",
+            textAlign: "center"
+          }}
+        >
+          <h1 style={{color:'white'}}>Achievements</h1>
+        </div>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
