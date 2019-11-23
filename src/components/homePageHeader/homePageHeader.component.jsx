@@ -9,7 +9,7 @@ class HomePageHeader extends React.Component {
 
     render() {
         return (
-            <div className='header'>
+            <div className='home-page-header'>
                 <div className='logo-div'>
                     <img
                         alt='PCON Logo'
