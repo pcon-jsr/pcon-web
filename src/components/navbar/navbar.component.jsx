@@ -43,7 +43,7 @@ class Navbar extends React.Component{
         return (
             
             <div className='navbar' style={{
-                visibility: (window.innerWidth >=768 && window.location.pathname === '/') ? (this.state.yPosition > 0  ? 'visible' : 'hidden' ) : 'visible'
+                visibility: (window.innerWidth >=768 && window.location.hash === '#/') ? (this.state.yPosition > 0  ? 'visible' : 'hidden' ) : 'visible'
             }}>
                 <div className='toggle-icon-div' onClick={this.props.toggleSidebar}>
                     <MenuIcon className='menu-icon'/>
