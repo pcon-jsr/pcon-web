@@ -20,6 +20,7 @@ class HomePageHeader extends React.Component {
                     <h2>Programming Club of NIT Jamshedpur</h2>
                     <ReactTypingEffect
                     className='animated-text'
+                    eraseDelay={1000}
                      text={["BUILD. BRAKE. CODE."]}
                     />
 
