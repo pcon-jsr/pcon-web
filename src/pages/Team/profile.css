@@ -19,6 +19,13 @@ color:#333;
     color: #3b5998;
 }
 
+.Team{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .profile{
 box-shadow: 4px 8px 10px #123!important;
 }
@@ -38,15 +45,14 @@ margin: 2% auto 2% auto;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 ;
     flex: 0 0 ;
-    max-width: 90%;
+    max-width: 100%;
     text-align: center;
     /* margin:'5px auto'; */
     margin-left:5%;
     position: relative;
-  width: 90%;
+  width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  
   }
 
 .row {
@@ -63,15 +69,19 @@ margin: 2% auto 2% auto;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  
 }
+
+.header{
+    width:100%;
+    height:auto;
+    border-radius: 6px;
+}
+
 
 @media only screen and (min-width:660px){
 
-    .row{
-        margin: 2rem auto;
-    }
+    
 
-    .Team{
-        margin-left:5rem !important;
-    }
+    
 }

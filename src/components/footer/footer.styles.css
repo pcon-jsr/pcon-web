@@ -1,7 +1,7 @@
 .footer{
     width:80vw;
     height:10vh;
-    
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;

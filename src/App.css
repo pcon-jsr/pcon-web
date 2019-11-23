@@ -89,3 +89,22 @@ a{
   align-items: flex-start;
   
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #c5bcbcff;
+  border-left: 0.4px solid #038A86;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #038A86;
+  border-radius: 100px;
+   
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(7, 92, 89);
+}

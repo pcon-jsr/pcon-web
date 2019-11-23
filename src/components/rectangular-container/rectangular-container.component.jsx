@@ -10,7 +10,7 @@ const RectangularContainer = ({children}) => {
                      <a rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/company/pconjsr/'  className="fa fa-linkedin"> </a>
                      <a rel='noopener noreferrer' target='_blank' href='https://github.com/pcon-jsr'  className="fa fa-github"  > </a>
                      <a rel='noopener noreferrer' target='_blank' href='https://www.instagram.com/pconjsr'  className="fa fa-instagram"> </a>
-                </div>
+            </div>
         </div>
     )
 }

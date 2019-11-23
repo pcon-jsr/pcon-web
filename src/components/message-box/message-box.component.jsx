@@ -114,14 +114,14 @@ const msgHandler=(event)=>{
 
 
 const check=()=>{
-    let numbers = /^[0-9]+$/;
+    //let numbers = /^[0-9]+$/;
     let  regEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    if(msg.email=="" || !regEx.test(String(msg.email).toLowerCase()) )
+    if(msg.email==="" || !regEx.test(String(msg.email).toLowerCase()) )
         return false;
-        if(msg.name=="")
+        if(msg.name==="")
            return false;    
-           if(msg.message=="")
+           if(msg.message==="")
         return false;
 
         return true;
