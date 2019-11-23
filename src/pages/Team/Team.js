@@ -6,6 +6,8 @@ import "./profile.css";
 import RectangularContainer from "../../components/rectangular-container/rectangular-container.component";
 // import MediaCard from './MediaCard';
 
+import DrDilipKumarPic from '../../assets/dr_dilip_kumar.jpg';
+
 export default class Team extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -55,7 +57,7 @@ export default class Team extends Component {
                       <img
                         alt=""
                         style={{ width: "270px", height: "250px" }}
-                        src="http://nitjsr.ac.in/images/facultyphotos/CS15.jpg"
+                        src={DrDilipKumarPic}
                       />
                     </div>
                     <div className="content">
