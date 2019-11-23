@@ -23,6 +23,11 @@ export default function Activities() {
     console.log(newValue);
   };
 
+  React.useEffect(() => {
+   window.scrollTo(0,0);
+    
+  });
+
   return (
     <div
       style={{
