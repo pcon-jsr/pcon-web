@@ -52,31 +52,31 @@ export default class Profile extends Component {
             </div>
             <div class="extra content">
               <ul style={{ textDecoration: "none", listStyleType: "none" }}>
-                <li style={{ display: "inline-block" }}>
+                <li style={{ display: "inline-block", margin:"0 4px" }}>
                   <a href={this.props.git}>
                     <i
-                      style={{ fontSize: "35px", margin: "3%" }}
+                      style={{ fontSize: "35px", margin: "3%" , background:'#eee', border:'1px solid #038a86' }}
                       class="fa fa-github-square"
                       aria-hidden="true"
                     ></i>
                   </a>
                 </li>
 
-                <li style={{ display: "inline-block" }}>
+                <li style={{ display: "inline-block" , margin:"0 4px"}}>
                   {" "}
                   <a href={this.props.linkedin}>
                     <i
-                      style={{ fontSize: "35px", margin: "3%" }}
+                      style={{ fontSize: "35px", margin: "3%" , background:'#eee', border:'1px solid #038a86' }}
                       class="fa fa-linkedin-square"
                       aria-hidden="true"
                     ></i>
                   </a>
                 </li>
-                <li style={{ display: "inline-block" }}>
+                <li style={{ display: "inline-block", margin:"0 4px" }}>
                   {" "}
                   <a href={this.props.fb}>
                     <i
-                      style={{ fontSize: "35px", margin: "3%" }}
+                      style={{ fontSize: "35px", margin: "3%", background:'#eee', border:'1px solid #038a86' }}
                       class="fa fa-facebook-square"
                       aria-hidden="true"
                     ></i>

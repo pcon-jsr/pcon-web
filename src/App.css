@@ -12,7 +12,10 @@
 body{
   font-family: 'Roboto Slab', serif;
    overflow-x:hidden;
-    
+ 
+}
+.App{
+  background:  #c5bcbc85;
 }
 
 body td{

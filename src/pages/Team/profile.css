@@ -1,59 +1,63 @@
-*{
-    border:none;
+* {
+  border: none;
 }
 .fa-github-square:hover,
 .fa-github-square:hover ::after,
-.fa-github-square:hover ::before{
-color:#333;
+.fa-github-square:hover ::before {
+  color: #333;
 }
 
 .fa-linkedin-square:hover,
 .fa-linkedin-square:hover ::after,
 .fa-linkedin-square:hover ::before {
-    color: #0e76a8;
+  color: #0e76a8;
 }
 
 .fa-facebook-square:hover,
 .fa-facebook-square:hover ::after,
 .fa-facebook-square:hover ::before {
-    color: #3b5998;
+  color: #3b5998;
 }
 
-.Team{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.Team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.profile{
-box-shadow: 4px 8px 10px #123!important;
+.container{
+    background: white;
 }
 
-.profile:hover{
-    /* transform:scale(1.1,1.1); */
-box-shadow:  1px 2px 5px #123!important;
-/* background: wheat; */
-}
-.jumbotrond{
-text-align: center;
-margin: 2% auto 2% auto;
+.profile {
+  box-shadow: 4px 8px 10px #123 !important;
 }
 
-    .col-md-4 {
-    
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 ;
-    flex: 0 0 ;
-    max-width: 100%;
-    text-align: center;
-    /* margin:'5px auto'; */
-    margin-left:5%;
-    position: relative;
+.profile:hover {
+  /* transform:scale(1.1,1.1); */
+  box-shadow: 1px 2px 5px #123 !important;
+  /* background: wheat; */
+}
+.jumbotrond {
+  text-align: center;
+  margin: 2% auto 2% auto;
+}
+
+.col-md-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0;
+  flex: 0 0;
+  max-width: 100%;
+  text-align: center;
+  /* margin:'5px auto'; */
+  margin-left: 5%;
+  position: relative;
   width: 100%;
   min-height: 1px;
-  
-  }
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .row {
   /* display: -webkit-box;
@@ -72,16 +76,11 @@ margin: 2% auto 2% auto;
   
 }
 
-.header{
-    width:100%;
-    height:auto;
-    border-radius: 6px;
+.header {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
-
-@media only screen and (min-width:660px){
-
-    
-
-    
+@media only screen and (min-width: 660px) {
 }

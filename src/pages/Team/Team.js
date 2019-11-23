@@ -104,7 +104,7 @@ export default class Team extends Component {
           <div className="container">
             <div
               className="row"
-               
+              style={{ marginLeft: window.innerWidth >= 660 ? "9%" : "1%" }}
             >
               <Profile
                 name="Himesh"
