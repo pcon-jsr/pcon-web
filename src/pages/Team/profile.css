@@ -1,6 +1,4 @@
-* {
-  border: none;
-}
+ 
 .fa-github-square:hover,
 .fa-github-square:hover ::after,
 .fa-github-square:hover ::before {
@@ -35,6 +33,7 @@
   box-shadow: 4px 8px 10px #123 !important;
    
 }
+
 
 .profile:hover {
   /* transform:scale(1.1,1.1); */
@@ -77,6 +76,12 @@
   flex-wrap: wrap;
   
 }
+
+.extra-content{
+    display: flex;
+    justify-content: center;
+}
+
 
 .header {
   width: 100%;

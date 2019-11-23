@@ -50,9 +50,9 @@ export default class Profile extends Component {
                             cat.
                             </div> */}
             </div>
-            <div class="extra content">
-              <ul style={{ textDecoration: "none", listStyleType: "none" }}>
-                <li style={{ display: "inline-block", margin:"0 4px" }}>
+            <div class="extra-content">
+              <ul style={{ textDecoration: "none", listStyleType: "none",width:'90%', display:'flex', justifyContent:'space-around', padding:0}}>
+                <li style={{ display: "inline-block" }}>
                   <a href={this.props.git}>
                     <i
                       style={{ fontSize: "35px", margin: "3%" , background:'#eee', border:'1px solid #038a86' }}
@@ -62,7 +62,7 @@ export default class Profile extends Component {
                   </a>
                 </li>
 
-                <li style={{ display: "inline-block" , margin:"0 4px"}}>
+                <li style={{ display: "inline-block" ,  }}>
                    
                   <a href={this.props.linkedin}>
                     <i
@@ -72,7 +72,7 @@ export default class Profile extends Component {
                     ></i>
                   </a>
                 </li>
-                <li style={{ display: "inline-block", margin:"0 4px" }}>
+                <li style={{ display: "inline-block", }}>
                    
                   <a href={this.props.fb}>
                     <i
