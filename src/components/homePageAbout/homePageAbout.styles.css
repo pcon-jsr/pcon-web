@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     
-    background:white;
+    
     padding:2.7rem 0;
 
     display: flex;
@@ -26,7 +26,7 @@
     width: 80%;
     text-align: center;
     font-size: 2rem;
-    
+    color:#fff;
 }
 
 .about .content {
@@ -43,7 +43,7 @@
     width: 30%;
     height: 100%;
      
-
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -60,7 +60,7 @@
 .about .content  .text{
     width: 70%;
     height: 100%;
-     
+    color:#fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

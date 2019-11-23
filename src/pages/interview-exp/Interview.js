@@ -44,6 +44,7 @@ const useStyles = makeStyles({
     width: 160
   },
   addExperienceBtn: {
+    zIndex:'3',
     width: "4rem",
     height: "4rem",
     borderRadius: "50%",
@@ -60,7 +61,9 @@ const useStyles = makeStyles({
     textDecorationColor: "white",
     cursor: "pointer",
     "&:hover": {
-      boxShadow: "5px 5px 35px -12px rgba(0,0,0,0.69)"
+      background:'#4a4a4c',
+      cursor:'pointer',
+
     }
   }
 });

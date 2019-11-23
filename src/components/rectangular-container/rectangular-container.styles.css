@@ -1,15 +1,36 @@
-.rectangular{
+.rectangular-container{
     
     width:96vw;
     height: auto;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.6);
-    background: #fff;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
      padding-top: 2rem;
-   
+  overflow: hidden;
+   position: relative;
+}
+
+.rectangular-container .rectangular{
+  width:100%;
+  height:100%;
+  background: transparent;
+  z-index: 1;
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rectangular-container .my-particle-bg{
+  position: absolute;
+  width:96vw;
+  height: 100%;
+  min-height: 200vh;
+  top:0;
+  background: #000;
 }
 
 .rectangular .social-media{
@@ -36,7 +57,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: orange;
+    
 
   }
   
@@ -56,8 +77,9 @@
   }
 
   .fa-github{
-    background:  black;
-    color:white;
+    background:  white;
+    color: black;
+    
   }
 
   .fa-instagram{
@@ -72,5 +94,6 @@
 }
 
 .rectangular .social-media a:nth-child(3):hover{
-     opacity: 0.75;
+     opacity: 0.8;
+     color: black;
 }
