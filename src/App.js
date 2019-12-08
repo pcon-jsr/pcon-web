@@ -51,6 +51,8 @@ class App extends React.Component{
       }
     ))
   }
+
+
  
   closeSidebar = () => {
     this.setState( 
@@ -83,7 +85,7 @@ class App extends React.Component{
             <div className='container' onClick={() => this.setState({expandSidebar:false, MessageBoxOpen:false, notificationBoxOpen:false})}>
               <Sidebar expanded={this.state.expandSidebar} />
               {this.state.notificationBoxOpen? <NotificationBox/>:null}
-              <div className='content'>
+              <div className='content'  >
                   
                   <Switch>
                       <Route exact path='/' component={HomePage} />

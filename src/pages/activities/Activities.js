@@ -42,7 +42,7 @@ export default function Activities() {
     >
       
       <RectangularContainer>
-        <h1 style={{color:'white', marginBottom: '3rem'}}>ACTIVITIES</h1>
+        <h1 style={{ marginBottom: '3rem'}}>ACTIVITIES</h1>
         <Paper className={classes.tabsContainer}>
           <Tabs
             value={value}

@@ -30,7 +30,7 @@ class Gallery extends React.Component {
 
                 <RectangularContainer>
                     <div style={{ width: '100%', height: '6rem', textAlign: 'center' }}>
-                        <h1 style={{ fontSize: '2.5rem', color:'white' }}>Gallery</h1>
+                        <h1 style={{ fontSize: '2.5rem' }}>Gallery</h1>
                     </div>
                     <Grid container spacing={4} style={{ marginBottom: 10, maxWidth: '100%', }} alignItems="center" justify='center'>
                         <Grid style={cardGridStyles} item xs={12} md={4} >

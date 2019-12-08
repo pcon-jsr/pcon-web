@@ -23,7 +23,7 @@ export default class Team extends Component {
       >
         <RectangularContainer>
           <div style={{ margin: "90px  0 0 0" }}>
-            <h1 style={{color:'white'}}>Team </h1>
+            <h1 style={{color:'black'}}>Team </h1>
           </div>
           <div
             className="jumbotrond"
@@ -95,7 +95,7 @@ export default class Team extends Component {
            <hr/>
            <hr/>
           {/* <h3 style={{ marginTop: '3%', marginLeft: '3%', }}><strong>Team Members:</strong></h3> */}
-          <h3 style={{ textAlign: "center", margin: "2rem  auto 0.5rem auto",  color:'white'  }}>
+          <h3 style={{ textAlign: "center", margin: "2rem  auto 0.5rem auto" }}>
             <strong>Final Year</strong>
           </h3>
 
@@ -247,7 +247,7 @@ export default class Team extends Component {
           <hr />
           <br />
           <div className="container">
-            <h3 style={{ textAlign: "center", marginLeft: "%",  color:'white'  }}>
+            <h3 style={{ textAlign: "center", marginLeft: "%", }}>
               <strong>Pre-Final Year</strong>
             </h3>
 

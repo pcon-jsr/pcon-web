@@ -36,7 +36,7 @@ function Timeline() {
             textAlign: "center"
           }}
         >
-          <h1 style={{color:'white'}}>Achievements</h1>
+          <h1 style={{color:'black'}}>Achievements</h1>
         </div>
         <VerticalTimeline>
           <VerticalTimelineElement

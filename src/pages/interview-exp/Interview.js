@@ -110,7 +110,7 @@ function Interview(props) {
       </div>
       <RectangularContainer>
       <div style={{ textAlign: "center", marginBottom:'10px' }}>
-        <h1 style={{color:'white'}}> Interview Experiences</h1>
+        <h1 style={{color:'black'}}> Interview Experiences</h1>
       </div>
         {/* Sub featured posts */}
         <Animated
