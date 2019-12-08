@@ -16,7 +16,7 @@ import MessageBox from './components/message-box/message-box.component';
 
 import { ReactComponent as EnvelopeIcon} from './assets/envelope-solid.svg';
 
-import { ReactComponent as BellIcon } from './assets/bell-regular.svg';
+import { ReactComponent as BellIcon } from './assets/bell-solid.svg';
 import NotificationBox from './components/notification-box/notification-box.component';
 
 import Activities from './pages/activities/Activities';

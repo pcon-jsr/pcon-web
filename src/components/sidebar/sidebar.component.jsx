@@ -47,7 +47,8 @@ class Sidebar extends React.Component{
         return (
             <div 
             style={{
-                visibility: (window.innerWidth >=768 && window.location.hash === '#/') ? (this.state.yPosition > 0  ? 'visible' : 'hidden' ) : 'visible'
+                opacity: (window.innerWidth >=768 && window.location.hash === '#/') ? (this.state.yPosition > 0  ? 1 : 0.2 ) : 1,
+                visibility: (window.innerWidth >=768 && window.location.hash === '#/') ? (this.state.yPosition > 0  ? 'visible' : 'hidden' ) : 'visible',
             }}
                 className={`sidebar ${this.props.expanded || this.state.expandedDueToHover?'expand':'contract'}`} 
                
