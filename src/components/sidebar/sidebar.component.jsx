@@ -79,7 +79,7 @@ class Sidebar extends React.Component{
                         </div>
                     </div>
                 </Link>
-                <Link to='/leaderboard' className='menu-item'>
+                {/* <Link to='/leaderboard' className='menu-item'>
                     <div className='icon-div'>
                          <LeaderboardIcon className='my-icon'/>
                     </div>
@@ -89,7 +89,7 @@ class Sidebar extends React.Component{
                             <Link to='/leaderboard'><span>Leaderboard</span></Link>
                         </div>
                     </div>
-                </Link>
+                </Link> */}
                 
                 <Link to='/interview' className='menu-item'>
                      

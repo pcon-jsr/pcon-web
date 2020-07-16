@@ -43,7 +43,8 @@ export default function Activities() {
       
       <RectangularContainer>
         <h1 style={{ marginBottom: '3rem'}}>ACTIVITIES</h1>
-        <Paper className={classes.tabsContainer}>
+        <h2> COMING SOON...</h2>
+        {/* <Paper className={classes.tabsContainer}>
           <Tabs
             value={value}
             onChange={handleChange}
@@ -97,7 +98,7 @@ export default function Activities() {
               </div>
             ) : null}
           </Typography>
-        </Box>
+        </Box> */}
       </RectangularContainer>
     </div>
   );
