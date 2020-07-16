@@ -7,6 +7,7 @@ import HomePageHeader from "../../components/homePageHeader/homePageHeader.compo
 // import OtherPagesSection from '../../components/otherPagesSection/otherPagesSection.component';
 import RectangularContainer from "../../components/rectangular-container/rectangular-container.component";
 import HomePageSection from "../../components/homePageSection/homePageSection.component";
+import HighlightsSection from "../../components/highlightsSection/highlightsSection";
 
 class HomePage extends React.Component {
   changeRoute = (text) => {
@@ -39,7 +40,7 @@ class HomePage extends React.Component {
           <HomePageSection grey>
             <h2>About the Institute</h2>
             <p>
-              National Institute of Technology, Jamshedpur,earlier known as
+              <b>National Institute of Technology, Jamshedpur</b>, earlier known as
               Regional Institute of Technology was established on 15th August
               1960 as a joint venture of Government of India and the Government
               of Bihar in the chain of REC's (Regional Engineering College) in
@@ -52,22 +53,13 @@ class HomePage extends React.Component {
               actually the REC of undivided Bihar & Jharkhand. The foundation
               stone of RIT (REC) Jamshedpur was laid by Dr. Srikrishna Sinha,
               the then chief minister of Bihar , with the aim of nurturing
-              talent and setting high standards of education and excellence. 
+              talent and setting high standards of education and excellence.
               <br/>
-              <br/>
-              On 27th December 2002, in the line of all other RECs of India, RIT
-              Jamshedpur (may be read as REC Jamshedpur too) was converted to
-              National Institute of Technology, Jamshedpur with the status of a
-              Deemed University as per the decision of Govt. of India. The
-              Institute is fully funded and governed by the Ministry of Human
-              Resource Development (MHRD), Government of India since 1st April,
-              2003. On 15 August 2007, NIT Jamshedpur was given the status of
-              the Institute of National Importance through an Act of the
-              Parliament known as the NIT Act.
             </p>
           </HomePageSection>
           <HomePageSection>
             <h2>Highlights</h2>
+            <HighlightsSection/>
           </HomePageSection>
           {/* <HomePageAbout />
                     <HomePageRecentActivities />
