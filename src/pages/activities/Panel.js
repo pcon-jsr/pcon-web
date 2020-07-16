@@ -43,7 +43,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Panel(props) {
   const classes = useStyles();
-  const theme = useTheme();
+  // const theme = useTheme();
 
   return (
     <React.Fragment>

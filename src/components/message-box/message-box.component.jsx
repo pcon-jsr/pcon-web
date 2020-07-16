@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './message-box.styles.css';
 import firebase from "./data.js";
 import { makeStyles } from '@material-ui/core/styles';
@@ -32,17 +32,17 @@ function TransitionLeft(props) {
     return <Slide {...props} direction="left" />;
 }
 
-function TransitionUp(props) {
-    return <Slide {...props} direction="up" />;
-}
+// function TransitionUp(props) {
+//     return <Slide {...props} direction="up" />;
+// }
 
-function TransitionRight(props) {
-    return <Slide {...props} direction="right" />;
-}
+// function TransitionRight(props) {
+//     return <Slide {...props} direction="right" />;
+// }
 
-function TransitionDown(props) {
-    return <Slide {...props} direction="down" />;
-}
+// function TransitionDown(props) {
+//     return <Slide {...props} direction="down" />;
+// }
 
 
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './notification-box.styles.css';
 
 class NotificationBox extends React.Component {

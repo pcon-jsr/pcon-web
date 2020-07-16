@@ -2,11 +2,11 @@ import React from 'react';
 
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
+// import Paper from '@material-ui/core/Paper';
+// import Typography from '@material-ui/core/Typography';
+// import Button from '@material-ui/core/Button';
+// import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
+// import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import  X from "./images/hackathon/X.JPG";
@@ -106,15 +106,15 @@ function SwipeableTextMobileStepper() {
   const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = tutorialSteps.length;
+  // const maxSteps = tutorialSteps.length;
 
-  function handleNext() {
-    setActiveStep(prevActiveStep => prevActiveStep + 1);
-  }
+  // function handleNext() {
+  //   setActiveStep(prevActiveStep => prevActiveStep + 1);
+  // }
 
-  function handleBack() {
-    setActiveStep(prevActiveStep => prevActiveStep - 1);
-  }
+  // function handleBack() {
+  //   setActiveStep(prevActiveStep => prevActiveStep - 1);
+  // }
 
   function handleStepChange(step) {
     setActiveStep(step);
